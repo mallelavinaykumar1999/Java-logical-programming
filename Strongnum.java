@@ -15,9 +15,10 @@ public class Strongnum{
         fact=rem*fact;
         rem-=1;
       }
+     
       sum=sum+fact;
       n=n/10;
-      fact=1;
+       fact=1;
     }
     if(temp==sum){
     System.out.println("The given number is Strong Number");
